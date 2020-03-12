@@ -9,6 +9,16 @@ This package proposes Python implementations of the numerical methods detailed i
 Installation (Python 3)
 ========================
 
+Reqirements (_added by NM_)
+---------
+
+Cromosim appears to need an old version of `scipy` and the `pillow` library (although there is no warnnig if `pillow` is not available, it just crashes). An anaconda environment called `cromosim` has been included that seems to load the correct packages:
+
+```
+conda env create -f environment.yml
+conda activate cromosim
+```
+
 With Pypi
 ---------
 

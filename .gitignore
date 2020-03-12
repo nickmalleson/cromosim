@@ -1,0 +1,13 @@
+# Mac crap
+.DS_Store
+
+# Vim swap files
+*.swp
+
+
+# Python stuff:
+__pycache__/
+
+# Results 
+results/
+*event*.png
